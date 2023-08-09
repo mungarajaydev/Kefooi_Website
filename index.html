@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- No need to add media query here -->
+    <title>KEDARNATH FOOD INC</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+    <body>
+    <section class="header">
+       <nav>
+         <a href="index.html"><img src="img/kfi.png" alt="Kedarnath Food inc Logo"></a>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+             <ul>
+                 <li><a href="index.html">HOME</a></li>
+                 <li><a href="product.html">PRODUCT</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+                 <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+<div class="text-box">
+    <h1>KEDARNATH FOOD INC</h1>
+    <p>Cleaning, Greading & Sortex All Agri Products <br><a href="mailto:kedarnathfoodinc@gmail.com">kedarnathfoodinc2019@gmail.com</a></p>
+    <a href="contact.html" class="btn"><span></span>Contact Us</a>
+</div>
+
+    </section>
+    <!-- About Us -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Our Company Detailes</h1>
+                <p>KEDARNATH FOOD INC was started in 2019, selling and Sortex various agro products like sesame seeds, Wheat, Mung, Gram in India and worldwide. The Company was started by Mr. Shantilal Mungara and continuously progressing because of his constant efforts and deep knowledge.His management skills and vast domain experience are driving force behind growth of Company.<br /><br />
+ <a href="about.html" class="btn red-btn"><span></span> Explore Now</a>
+       
+            </div>
+            <div class="about-col ">
+                <img src="img/about.jpg" alt="About Image">
+            </div>
+        </div>
+    </section><hr>
+
+    <!--  company profile -->
+    <section class="company">
+        <h1>Company Profile</h1>
+        <p>For More Information Contact this persons</p>
+
+        <div class="row">
+            <div class="col">
+                <h3>MUNGARA SHANTILAL</h3>
+                <p><img src="img/call.png" class="call" alt=""><a href="tel:+919724780606" class="mails">+91 9724780606</a></p>
+                <p><a href="mailto:kedarnathfoodinc@gmail.com" class="mails">kedarnathfoodinc2019@gmail.com</a></p>
+            </div>
+            <div class="col">
+                <h3>YATIN LIMBASIYA</h3>
+                <P><img src="img/call.png" class="call" alt=""><a href="tel:+919725864666" class="mails">+91 9725864666</a></P>
+                <p> <a href="mailto:kedarnathfoodinc@gmail.com" class="mails">kedarnathfoodinc2019@gmail.com</a></p>
+            </div>
+            <div class="col">
+                <h3>DEVENDRA LUNAGARIYA</h3>
+                <p><img src="img/call.png" class="call" alt=""><a href="tel:+919998156606" class="mails">+91 9998156606</a></p>
+                <P> <a href="mailto:kedarnathfoodinc@gmail.com" class="mails">kedarnathfoodinc2019@gmail.com</a></P>
+            </div>
+        </div>
+    </section>
+    <!-- and -->
+    <!-- sortex product images -->
+    <section class="sproduct">
+        <h1>SORTEX PRODUCT IMAGES</h1>
+        <P><a href="Sesameseed.html">
+            Sesame seed</a> | Wheat | <a href="coriander.html">coriander</a> | <a href="grams.html">Gram</a> | Mung | <a href="hulled.html"> Huld Sesame seed</a></P>
+        <div class="srow">
+            <div class="scol">                
+               <img src="img/seee.jpg" alt="sesame seed" >
+                <div class="layer">
+                     <a href="Sesameseed.html"><h3>Sesame Seed</h3></a>
+                </div>
+            </div>
+            <div class="scol">
+                <img src="img/wheat.jpg" alt="wheat">
+                <div class="layer">
+                    <h3>Wheat</h3>
+                </div>
+            </div>
+            <div class="scol">
+                <img src="img/gram.jpg" alt="gram">
+                <div class="layer">
+                    <a href="grams.html"><h3>Gram</h3></a>
+                </div>
+                
+            </div>
+            <div class="scol">
+                <img src="img/mung.jpg" alt="Mung">
+                <div class="layer">
+                    <h3>Mung</h3>
+                </div>
+                
+            </div>
+            <div class="scol">
+                <img src="img/huld.jpg" alt=Huld">
+                <div class="layer">
+                    <a href="hulled.html"> <h3>Hulled Sesame</h3></a>
+                </div>
+                
+            </div>      
+            </div>
+            </div>
+        </div>
+
+    </section><hr>
+    <!--  product  -->
+    <section class="footer">
+        <div class="tag"><span>&copy;<strong>Kedarnath Food Inc.</strong>All Rights Reserved.</span></div>
+       <div class="mail"> <a href="mailto:kedarnathfoodinc@gmail.com">kedarnathfoodinc2019@gmail.com</a></div>
+       </section>
+    <!-- javascript for toggle menubar -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html> 
+<!-- Jaydev Mungara -->

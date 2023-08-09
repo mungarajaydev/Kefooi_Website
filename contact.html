@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Feel Free to Contact Us-KEDARNATH FOOD INC</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/kfi.png" alt="Kedarnath Food inc Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box1">
+            <h1>KEDARNATH FOOD INC</h1>
+            <p>Cleaning, Greading & Sortex All Agri Products <br><a
+                    href="mailto:kedarnathfoodinc@gmail.com">kedarnathfoodinc2019@gmail.com</a></p>
+        </div>
+
+        <h1 class="abouts">Contact Us</h1>
+       <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.92436105891!2d70.90954966843131!3d22.431872577767034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959bb5834c318d9%3A0x1e60e6b2976eefc7!2sKEDARNATH%20FOOD%20INC!5e0!3m2!1sen!2sin!4v1642596903667!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       </section><hr>
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Kuvadava-vankaner Road</h5>
+                            <p> Opp.Fishfa Agri World RSN-159/1/1, Plot No.1-2, Village:-Sanosara,Ta.Dis:-Rajkot-360023</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+91 9724780606</h5>
+                            <p> Monday to Saturday,10AM to 6PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>kedarnathfoodinc<br>2019@gmail.com</h5>
+                            <p> Email us your query</p>
+                        </span>
+                    </div>
+               </div>
+                <div class="contact-col">
+                    <p class="query">Please submut your querry</p>
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter Your Email ID" required>
+                        <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                        <textarea rows="8" name="message" placeholder="Message"required></textarea>
+                        <button type="submit" class="btn red-btn"><span></span>Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </section><hr>
+
+    
+    <section class="footer">
+        <div class="tag"><span>&copy;<strong>Kedarnath Food Inc.</strong>All Rights Reserved.</span></div>
+        <div class="mail"> <a href="mailto:kedarnathfoodinc@gmail.com">kedarnathfoodinc2019@gmail.com</a></div>
+    </section>
+    <!-- This is javascript for toggle menubar -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
